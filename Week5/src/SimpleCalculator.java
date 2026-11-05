@@ -53,7 +53,7 @@ public class SimpleCalculator {
             default:
                 System.out.println("INVALID CHOICE");
         }
-       
+        
     }
     
 }
