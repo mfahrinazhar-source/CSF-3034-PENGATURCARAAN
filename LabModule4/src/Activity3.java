@@ -10,7 +10,7 @@
  * AUTHOR: MOHAMAD FAHRIN BIN MOHD AZHAR
  * PROGRAM NAME: CALCULATE AGE BASE ON BIRTHYEAR
  * DESCRIPTION: DISPLAY OUTPUT USING JOPTIONPANE
- * DATE: 28/10/2026
+ * DATE: 29/10/2026
  * MODIFIED DATE: -
  * VERSION:1.0
  * @author ASUS * @author ASUS
@@ -36,11 +36,14 @@ public class Activity3 {
         
         int birthdate =  2000 + iyear;
         
-        final int CURAGE = 2026 - birthdate;
+        int CURAGE = 2026 - birthdate;
         
   
 
-        JOptionPane.showMessageDialog(null,"YOUR DATE IS: "+iday+"|"+imonth+"|"+birthdate+"\nYOUR AGE NOW: "+CURAGE);
+        JOptionPane.showMessageDialog(null,"YOUR IC IS: "+ic
+                +"\nYOUR BIRTHDATE IS: "+iday
+                +"|"+imonth+"|"+birthdate
+                +"\nYOUR AGE THIS YEAR IS: "+CURAGE);
         
         
         
